@@ -1,0 +1,13 @@
+{
+  "spans": [
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0
+  ],
+  "beam_height": 2.0,
+  "pier_height": 10.0,
+  "bridge_width": 12.0,
+  "num_girders": 10
+}

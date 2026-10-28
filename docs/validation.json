@@ -1,0 +1,86 @@
+{
+  "status": "passed",
+  "python": "3.13.17",
+  "platform": "Windows",
+  "syntax_files": 48,
+  "scenes": [
+    {
+      "scene": "bridge",
+      "drones": 3,
+      "tasks": 20,
+      "input_fingerprint_matches": true,
+      "all_tasks_once": true,
+      "distance_m": 14464.241620667523,
+      "scheduled_completion_s": 1949.5462855126946,
+      "simulation_completion_s": 1952.5,
+      "coverage_count": 20,
+      "collision_count": 0,
+      "inter_uav_conflict_count": 0,
+      "battery_feasible": true
+    },
+    {
+      "scene": "bridge_stl_20",
+      "drones": 3,
+      "tasks": 20,
+      "input_fingerprint_matches": true,
+      "all_tasks_once": true,
+      "distance_m": 356.8686205189754,
+      "scheduled_completion_s": 59.192446294443016,
+      "simulation_completion_s": 61.0,
+      "coverage_count": 20,
+      "collision_count": 0,
+      "inter_uav_conflict_count": 0,
+      "battery_feasible": true
+    },
+    {
+      "scene": "other_scenes",
+      "drones": 2,
+      "tasks": 4,
+      "input_fingerprint_matches": true,
+      "all_tasks_once": true,
+      "distance_m": 52.24233468140704,
+      "scheduled_completion_s": 15.060583670351757,
+      "simulation_completion_s": 16.0,
+      "coverage_count": 4,
+      "collision_count": 0,
+      "inter_uav_conflict_count": 0,
+      "battery_feasible": true
+    }
+  ],
+  "stl_source_hashes": "passed",
+  "source_manifest": {
+    "status": "not_present"
+  },
+  "fresh_small_planning_and_simulation": {
+    "scene": "other_scenes",
+    "drones": 2,
+    "tasks": 4,
+    "input_fingerprint_matches": true,
+    "all_tasks_once": true,
+    "distance_m": 52.24233468140704,
+    "scheduled_completion_s": 15.060583670351757,
+    "simulation_completion_s": 16.0,
+    "coverage_count": 4,
+    "collision_count": 0,
+    "inter_uav_conflict_count": 0,
+    "battery_feasible": true
+  },
+  "bridge_simulation_replays": [
+    {
+      "scene": "bridge",
+      "feasible": true,
+      "coverage_count": 20,
+      "collision_count": 0,
+      "inter_uav_conflict_count": 0,
+      "completion_time_s": 1952.5
+    },
+    {
+      "scene": "bridge_stl_20",
+      "feasible": true,
+      "coverage_count": 20,
+      "collision_count": 0,
+      "inter_uav_conflict_count": 0,
+      "completion_time_s": 61.0
+    }
+  ]
+}

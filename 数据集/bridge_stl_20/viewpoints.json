@@ -1,0 +1,442 @@
+[
+  {
+    "id": "P01",
+    "position_m": [
+      8.5,
+      10.909099966287613,
+      7
+    ],
+    "target_m": [
+      8.5,
+      10.909099966287613,
+      10.0
+    ],
+    "region": "bridge_below",
+    "component": "span_1",
+    "dwell_seconds": 2,
+    "surface_clearance_m": 3.0,
+    "look_direction_unit": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": "P02",
+    "position_m": [
+      14.5,
+      1.09089994430542,
+      7
+    ],
+    "target_m": [
+      14.5,
+      1.09089994430542,
+      10.0
+    ],
+    "region": "bridge_below",
+    "component": "span_1",
+    "dwell_seconds": 2,
+    "surface_clearance_m": 3.0,
+    "look_direction_unit": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": "P03",
+    "position_m": [
+      26.5,
+      10.909099966287613,
+      7
+    ],
+    "target_m": [
+      26.5,
+      10.909099966287613,
+      10.0
+    ],
+    "region": "bridge_below",
+    "component": "span_2",
+    "dwell_seconds": 2,
+    "surface_clearance_m": 3.0,
+    "look_direction_unit": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": "P04",
+    "position_m": [
+      32.5,
+      1.09089994430542,
+      7
+    ],
+    "target_m": [
+      32.5,
+      1.09089994430542,
+      10.0
+    ],
+    "region": "bridge_below",
+    "component": "span_2",
+    "dwell_seconds": 2,
+    "surface_clearance_m": 3.0,
+    "look_direction_unit": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": "P05",
+    "position_m": [
+      44.5,
+      10.909099966287613,
+      7
+    ],
+    "target_m": [
+      44.5,
+      10.909099966287613,
+      10.0
+    ],
+    "region": "bridge_below",
+    "component": "span_3",
+    "dwell_seconds": 2,
+    "surface_clearance_m": 3.0,
+    "look_direction_unit": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": "P06",
+    "position_m": [
+      50.5,
+      1.09089994430542,
+      7
+    ],
+    "target_m": [
+      50.5,
+      1.09089994430542,
+      10.0
+    ],
+    "region": "bridge_below",
+    "component": "span_3",
+    "dwell_seconds": 2,
+    "surface_clearance_m": 3.0,
+    "look_direction_unit": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": "P07",
+    "position_m": [
+      62.5,
+      10.909099966287613,
+      7
+    ],
+    "target_m": [
+      62.5,
+      10.909099966287613,
+      10.0
+    ],
+    "region": "bridge_below",
+    "component": "span_4",
+    "dwell_seconds": 2,
+    "surface_clearance_m": 3.0,
+    "look_direction_unit": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": "P08",
+    "position_m": [
+      68.5,
+      1.09089994430542,
+      7
+    ],
+    "target_m": [
+      68.5,
+      1.09089994430542,
+      10.0
+    ],
+    "region": "bridge_below",
+    "component": "span_4",
+    "dwell_seconds": 2,
+    "surface_clearance_m": 3.0,
+    "look_direction_unit": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": "P09",
+    "position_m": [
+      80.5,
+      10.909099966287613,
+      7
+    ],
+    "target_m": [
+      80.5,
+      10.909099966287613,
+      10.0
+    ],
+    "region": "bridge_below",
+    "component": "span_5",
+    "dwell_seconds": 2,
+    "surface_clearance_m": 3.0,
+    "look_direction_unit": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": "P10",
+    "position_m": [
+      86.5,
+      1.09089994430542,
+      7
+    ],
+    "target_m": [
+      86.5,
+      1.09089994430542,
+      10.0
+    ],
+    "region": "bridge_below",
+    "component": "span_5",
+    "dwell_seconds": 2,
+    "surface_clearance_m": 3.0,
+    "look_direction_unit": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": "P11",
+    "position_m": [
+      16.5,
+      6,
+      5
+    ],
+    "target_m": [
+      19.600000381469727,
+      6.0,
+      5.0
+    ],
+    "region": "pier",
+    "component": "pier_1_west",
+    "dwell_seconds": 2,
+    "surface_clearance_m": 3.0993805626040793,
+    "look_direction_unit": [
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "P12",
+    "position_m": [
+      24.5,
+      6,
+      5
+    ],
+    "target_m": [
+      21.399999618530273,
+      6.0,
+      5.0
+    ],
+    "region": "pier",
+    "component": "pier_1_east",
+    "dwell_seconds": 2,
+    "surface_clearance_m": 3.0993805626040793,
+    "look_direction_unit": [
+      -1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "P13",
+    "position_m": [
+      34.5,
+      6,
+      5
+    ],
+    "target_m": [
+      37.60000038146973,
+      6.0,
+      5.0
+    ],
+    "region": "pier",
+    "component": "pier_2_west",
+    "dwell_seconds": 2,
+    "surface_clearance_m": 3.0993805626040793,
+    "look_direction_unit": [
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "P14",
+    "position_m": [
+      42.5,
+      6,
+      5
+    ],
+    "target_m": [
+      39.39999961853027,
+      6.0,
+      5.0
+    ],
+    "region": "pier",
+    "component": "pier_2_east",
+    "dwell_seconds": 2,
+    "surface_clearance_m": 3.0993805626040793,
+    "look_direction_unit": [
+      -1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "P15",
+    "position_m": [
+      52.5,
+      6,
+      5
+    ],
+    "target_m": [
+      55.60000038146973,
+      6.0,
+      5.0
+    ],
+    "region": "pier",
+    "component": "pier_3_west",
+    "dwell_seconds": 2,
+    "surface_clearance_m": 3.0993805626040793,
+    "look_direction_unit": [
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "P16",
+    "position_m": [
+      60.5,
+      6,
+      5
+    ],
+    "target_m": [
+      57.39999961853027,
+      6.0,
+      5.0
+    ],
+    "region": "pier",
+    "component": "pier_3_east",
+    "dwell_seconds": 2,
+    "surface_clearance_m": 3.0993805626040793,
+    "look_direction_unit": [
+      -1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "P17",
+    "position_m": [
+      70.5,
+      6,
+      5
+    ],
+    "target_m": [
+      73.5999984741211,
+      6.0,
+      5.0
+    ],
+    "region": "pier",
+    "component": "pier_4_west",
+    "dwell_seconds": 2,
+    "surface_clearance_m": 3.0993786792735976,
+    "look_direction_unit": [
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "P18",
+    "position_m": [
+      78.5,
+      6,
+      5
+    ],
+    "target_m": [
+      75.4000015258789,
+      6.0,
+      5.0
+    ],
+    "region": "pier",
+    "component": "pier_4_east",
+    "dwell_seconds": 2,
+    "surface_clearance_m": 3.0993786792735976,
+    "look_direction_unit": [
+      -1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "P19",
+    "position_m": [
+      32.5,
+      -3,
+      11.9
+    ],
+    "target_m": [
+      32.5,
+      0.0,
+      11.9
+    ],
+    "region": "bridge_exterior",
+    "component": "deck_south",
+    "dwell_seconds": 2,
+    "surface_clearance_m": 3.0,
+    "look_direction_unit": [
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": "P20",
+    "position_m": [
+      62.5,
+      15,
+      11.9
+    ],
+    "target_m": [
+      62.5,
+      12.0,
+      11.9
+    ],
+    "region": "bridge_exterior",
+    "component": "deck_north",
+    "dwell_seconds": 2,
+    "surface_clearance_m": 3.0,
+    "look_direction_unit": [
+      0.0,
+      -1.0,
+      0.0
+    ]
+  }
+]

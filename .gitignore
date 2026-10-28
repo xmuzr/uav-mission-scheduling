@@ -1,0 +1,37 @@
+# Local preparation, downloaded tools and evidence intermediates
+.evidence_work/
+.git-publish/
+dist/
+*.docx
+*.doc
+
+# The Windows portable runtime is distributed as a Release asset
+完整代码/runtime/
+完整代码/outputs/
+outputs/
+
+# Python / editor / OS generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+~$*
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+

@@ -1,0 +1,22 @@
+{
+  "planning": {
+    "distance_strategy": "hybrid",
+    "astar_threshold_m": 600,
+    "grid_resolution_m": 10,
+    "heuristic_weight": 1.2,
+    "allocation_strategy": "pci_greedy",
+    "solver_time_limit_seconds": 30,
+    "seed": 20260910
+  },
+  "safety": {
+    "uav_radius_m": 0.5,
+    "obstacle_margin_m": 0,
+    "minimum_separation_m": 20,
+    "collision_sample_step_m": 5
+  },
+  "online": {
+    "planning_update_hz": 2,
+    "prediction_horizon_s": 10,
+    "sensor_range_m": 100
+  }
+}

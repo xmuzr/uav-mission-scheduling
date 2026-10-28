@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "algorithm": "sha256",
+  "files": [
+    {
+      "path": "scripts/check_repository.py",
+      "normalization": "lf",
+      "sha256": "e2b369effa78cf1b1c8bd42ef11ad083e491ccaf2800b0292c3f0482885c9fa9"
+    },
+    {
+      "path": "scripts/update_manifest.py",
+      "normalization": "lf",
+      "sha256": "fe8ae220a2a78ac2922c425267724bccf079a7e38a6b441723b5958b0c8b64ec"
+    },
+    {
+      "path": "完整代码/configs/defaults.json",
+      "normalization": "lf",
+      "sha256": "34d9a30050059d92d90ecadc73f192995b27d095869461c5180fe758f3b1813c"
+    },
+    {
+      "path": "完整代码/launch.py",
+      "normalization": "lf",
+      "sha256": "e31e3e2ebf0b7ae31c0ca50ed9921f223757cbca6f2a622dfb619585ea9a9dad"
+    },
+    {
+      "path": "完整代码/pyproject.toml",
+      "normalization": "lf",
+      "sha256": "e6facf013f74fd9acde08bbcb95ed1bd764c5399b060fe428e98395e618a4f7a"
+    },
+    {
+      "path": "完整代码/requirements.txt",
+      "normalization": "lf",
+      "sha256": "6a86fcfc68c40d43a02e0f00015612cc4c99796f4afd9483582221666df3ea0d"
+    },
+    {
+      "path": "完整代码/run.py",
+      "normalization": "lf",
+      "sha256": "3b3856a7e1e3103291ce770d3ca3f89ba106f0e0aece40705f8b56d196dff232"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/__init__.py",
+      "normalization": "lf",
+      "sha256": "95df6d28356758d8dd7060282b3b0c427524225a6f3ebf3d8e89bae3e15f3ff3"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/__main__.py",
+      "normalization": "lf",
+      "sha256": "1d7c7685c25a584c823d6d63512341fba66ac2cf843623bec655e313518c99b9"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/application/__init__.py",
+      "normalization": "lf",
+      "sha256": "ebf0ccb9ddb83ff70c35d45eb14995f9a3e9cb549cfa4bb8a443dd37682b5213"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/application/cli.py",
+      "normalization": "lf",
+      "sha256": "62b12b0d29b6f6355cc60bba62d69ee3b85ff28b223a4b6319e4623539db4c6c"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/application/pipeline.py",
+      "normalization": "lf",
+      "sha256": "8a2629deb3b6c2a7c9d480db1c81b5e9830ad505f9849898a85aca2926cecb37"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/constraints/__init__.py",
+      "normalization": "lf",
+      "sha256": "ebf0ccb9ddb83ff70c35d45eb14995f9a3e9cb549cfa4bb8a443dd37682b5213"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/constraints/battery.py",
+      "normalization": "lf",
+      "sha256": "f51ac97647d3cf8fe7e9e777963b13fd4ef78e63d5ad1589d314268894ba068a"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/environment/__init__.py",
+      "normalization": "lf",
+      "sha256": "ebf0ccb9ddb83ff70c35d45eb14995f9a3e9cb549cfa4bb8a443dd37682b5213"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/environment/collision.py",
+      "normalization": "lf",
+      "sha256": "1ad346ea002b6e3c4f9dec71f9de7c3e75ab96da895ca601a9f9a944ebbb8981"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/environment/mesh.py",
+      "normalization": "lf",
+      "sha256": "f082d77286b59964dc1bb9b355c201aa6a2c8fbec5e737e92a59f64f22e9ad6c"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/environment/voxel_grid.py",
+      "normalization": "lf",
+      "sha256": "191ec8fe1eef20016652a12b959ec273f2783fee6a2ab5588eb6131fa1443334"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/io/__init__.py",
+      "normalization": "lf",
+      "sha256": "ebf0ccb9ddb83ff70c35d45eb14995f9a3e9cb549cfa4bb8a443dd37682b5213"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/io/exports.py",
+      "normalization": "lf",
+      "sha256": "b514fe533be0382afe381d4ae94bc9b9ad24096799c26301c5e9c9d62509dfa6"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/models/__init__.py",
+      "normalization": "lf",
+      "sha256": "ebf0ccb9ddb83ff70c35d45eb14995f9a3e9cb549cfa4bb8a443dd37682b5213"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/models/geometry.py",
+      "normalization": "lf",
+      "sha256": "e2bed26f5dea38c28246cd403eba0ed0433d216d8fa8ba7311ade71703902c7c"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/models/request.py",
+      "normalization": "lf",
+      "sha256": "88b3c69c33b2e9d3c798b31ec904c4b60b06ddb671b8ea117a7ea010077b089a"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/path_planning/__init__.py",
+      "normalization": "lf",
+      "sha256": "ebf0ccb9ddb83ff70c35d45eb14995f9a3e9cb549cfa4bb8a443dd37682b5213"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/path_planning/astar/__init__.py",
+      "normalization": "lf",
+      "sha256": "ebf0ccb9ddb83ff70c35d45eb14995f9a3e9cb549cfa4bb8a443dd37682b5213"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/path_planning/astar/planner.py",
+      "normalization": "lf",
+      "sha256": "c7c2825d0ba0afc550927e63bce9ccd829fee02c7b50088d617e19fe5b376ada"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/path_planning/astar/search.py",
+      "normalization": "lf",
+      "sha256": "4b5140cfc87d6cdd8fc50b331b399ea11aa3908ff3bf3524b92c4fce252157e7"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/path_planning/path_store.py",
+      "normalization": "lf",
+      "sha256": "f23c59dbcbef325c34ca939498bb422ab4ce0c1cfc766d36fef22400c859c688"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/path_planning/postprocessing/__init__.py",
+      "normalization": "lf",
+      "sha256": "ebf0ccb9ddb83ff70c35d45eb14995f9a3e9cb549cfa4bb8a443dd37682b5213"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/path_planning/postprocessing/simplification.py",
+      "normalization": "lf",
+      "sha256": "69438ab9dff8bc59f65b5aee473ef9b5ffcddd9d828c31fa59dac2487a5c7278"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/path_planning/postprocessing/validation.py",
+      "normalization": "lf",
+      "sha256": "be5d95127100d9a4468c77e276f5a14a00cb93270ad9dcb45e9d8db702575cef"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/realtime_avoidance/__init__.py",
+      "normalization": "lf",
+      "sha256": "ebf0ccb9ddb83ff70c35d45eb14995f9a3e9cb549cfa4bb8a443dd37682b5213"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/realtime_avoidance/api.py",
+      "normalization": "lf",
+      "sha256": "21e5e649f29d76933ad45d260ee30356199b2c79f16a4b8f9aa863e9138d7876"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/realtime_avoidance/config.py",
+      "normalization": "lf",
+      "sha256": "4d96ceceebecd54ee0ae338ae32f84862da75da63c5fdae2d53e78024dd4973f"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/realtime_avoidance/local_avoidance.py",
+      "normalization": "lf",
+      "sha256": "49514f94d625ad94d8fb012b5a7c73b2410974d4f36d268fbc38a17a465f2760"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/realtime_avoidance/obstacles.py",
+      "normalization": "lf",
+      "sha256": "85d562da395f68865b56f3c86a1d0cfb4226eda060256adb8098c547245f5829"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/scheduling/__init__.py",
+      "normalization": "lf",
+      "sha256": "ebf0ccb9ddb83ff70c35d45eb14995f9a3e9cb549cfa4bb8a443dd37682b5213"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/scheduling/conflicts.py",
+      "normalization": "lf",
+      "sha256": "2441cd0741ac33c3022d5395e1219fe501eb8328992195e6d70b11323a8f07d0"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/scheduling/path_data.py",
+      "normalization": "lf",
+      "sha256": "a817bd5f5c44661842bb53fb043a149a5c748308341a231edf026d03a1194761"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/scheduling/resolution.py",
+      "normalization": "lf",
+      "sha256": "89ccab07978ae5491534ca2538be20939b5942c240d3bcbd9382405738fa6779"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/scheduling/trajectory.py",
+      "normalization": "lf",
+      "sha256": "ef84d2c29376b8b01b4c6144c4f6d83c36feecb6fc740194a460945ee7f402d1"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/simulation/__init__.py",
+      "normalization": "lf",
+      "sha256": "ebf0ccb9ddb83ff70c35d45eb14995f9a3e9cb549cfa4bb8a443dd37682b5213"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/simulation/api.py",
+      "normalization": "lf",
+      "sha256": "04ec73d447e8139d746e47f536f2da96930c845f31173331bc5a1a7250ccc1bf"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/simulation/online.py",
+      "normalization": "lf",
+      "sha256": "8794b2330f211012599163c23cdcd223f9b8d01bfc0c50cfd53e6c1803f9e7a4"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/task_allocation/__init__.py",
+      "normalization": "lf",
+      "sha256": "ebf0ccb9ddb83ff70c35d45eb14995f9a3e9cb549cfa4bb8a443dd37682b5213"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/task_allocation/cost_matrix/__init__.py",
+      "normalization": "lf",
+      "sha256": "ebf0ccb9ddb83ff70c35d45eb14995f9a3e9cb549cfa4bb8a443dd37682b5213"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/task_allocation/cost_matrix/strategies.py",
+      "normalization": "lf",
+      "sha256": "dcb03085f45f196b925664dc3c632c06dff23d6451d2751e55ebf4a6afeee013"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/task_allocation/metrics.py",
+      "normalization": "lf",
+      "sha256": "5f21a843e6c3dba5038d4fe960f7e11780f2ddae7f6b76b01cf359c18e5dd3ef"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/task_allocation/nodes.py",
+      "normalization": "lf",
+      "sha256": "206d7e4baa5706500baed116818ce7e5a2e01bca540bf9d12b58c7a9397f9784"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/task_allocation/solver.py",
+      "normalization": "lf",
+      "sha256": "dc3cc5633b6e4ef82bafb420390a8d48f3c29662b45c9f9eec2e4c270790a0c3"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/visualization/__init__.py",
+      "normalization": "lf",
+      "sha256": "ebf0ccb9ddb83ff70c35d45eb14995f9a3e9cb549cfa4bb8a443dd37682b5213"
+    },
+    {
+      "path": "完整代码/src/uav_cooperation/visualization/viewer.py",
+      "normalization": "lf",
+      "sha256": "e37c97c371791c98a2dcbf4c239899a974a4a4c5369b98e625463ba59c716338"
+    },
+    {
+      "path": "完整代码/启动项目.cmd",
+      "normalization": "lf",
+      "sha256": "ca4c71d82b42b36a4cee640b89f801ed540a15b532efd62f1184c37930dfcd68"
+    },
+    {
+      "path": "完整代码/项目命令.cmd",
+      "normalization": "lf",
+      "sha256": "f738673a54f646df08d752d7b4f216b6aacfbbeb76f98e27d5cb0dac511d7db4"
+    },
+    {
+      "path": "数据集/bridge/mission.json",
+      "normalization": "lf",
+      "sha256": "7d2b38f596f0524dfddd81a752c85db05c0ca77add6fc517e592dd1a51974104"
+    },
+    {
+      "path": "数据集/bridge_stl_20/bridge.stl",
+      "normalization": "binary",
+      "sha256": "bebeb1103e03cf088d0bbbfc866e726b857128eaa0ff802447bf8a7e21f11fa0"
+    },
+    {
+      "path": "数据集/bridge_stl_20/bridge_design.json",
+      "normalization": "lf",
+      "sha256": "fcf10a16c9988802fdd760ff3155bfcd76490388414b55c5df92cb1f77968194"
+    },
+    {
+      "path": "数据集/bridge_stl_20/bridge_mission_frame.stl",
+      "normalization": "binary",
+      "sha256": "05dc14ed6fa28b11df7eac742749777a7d5ac81580f6e79eed5ce499230a2ce0"
+    },
+    {
+      "path": "数据集/bridge_stl_20/LICENSE",
+      "normalization": "lf",
+      "sha256": "ec63da16fb7f6c46bbaffc838e9ec2933caf23126da9ac0288b7cf70917a0f48"
+    },
+    {
+      "path": "数据集/bridge_stl_20/mission.json",
+      "normalization": "lf",
+      "sha256": "4089a04084d1e7c0140f78907d7888d6d365cb4fa5c0cadabba413eafef72426"
+    },
+    {
+      "path": "数据集/bridge_stl_20/README.md",
+      "normalization": "lf",
+      "sha256": "aebc71373e3f6723a167fc38db0c0cdb49b4cbc03dafbe547b33efb400f9f7e5"
+    },
+    {
+      "path": "数据集/bridge_stl_20/source_manifest.json",
+      "normalization": "lf",
+      "sha256": "e0ea21c15c0ca7c403fc7ce10a17573626d27f4b3fd879cb7022e07aa2e52fd5"
+    },
+    {
+      "path": "数据集/bridge_stl_20/viewpoints.csv",
+      "normalization": "lf",
+      "sha256": "16f5b620a69a1efc0816d786b9caa7d06479df5151b0577b90fc1dfea15c49cc"
+    },
+    {
+      "path": "数据集/bridge_stl_20/viewpoints.json",
+      "normalization": "lf",
+      "sha256": "b335bbf827f93a78b53ed032c92026ed6c582b155838ddd917d9cce439921316"
+    },
+    {
+      "path": "数据集/other_scenes/mission.json",
+      "normalization": "lf",
+      "sha256": "2df1a21b2ba9a2265cef0713e50f98c1bb7a9b5ac3eb1850f027bda49ef2629e"
+    }
+  ]
+}

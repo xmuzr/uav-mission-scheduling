@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uav-cooperation"
+version = "1.0.0"
+description = "Multi-UAV task allocation, Weighted A* routing, scheduling and online planning simulation"
+requires-python = ">=3.11"
+dependencies = ["numpy>=2.0", "ortools>=9.15", "matplotlib>=3.8", "tornado>=6.5"]
+
+[project.scripts]
+uav-cooperation = "uav_cooperation.application.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

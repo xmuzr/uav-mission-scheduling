@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "name": "small_two_uav_demo",
+  "coordinate_frame": "local_xyz_m",
+  "drone_count": 2,
+  "drones": [
+    {
+      "id": "UAV1",
+      "start_m": [
+        2,
+        2,
+        2
+      ],
+      "available_flight_seconds": 120,
+      "reserve_seconds": 10,
+      "cruise_speed_mps": 2
+    },
+    {
+      "id": "UAV2",
+      "start_m": [
+        18,
+        2,
+        2
+      ],
+      "available_flight_seconds": 120,
+      "reserve_seconds": 10,
+      "cruise_speed_mps": 2
+    }
+  ],
+  "tasks": [
+    {
+      "id": "P01",
+      "position_m": [
+        3,
+        8,
+        2
+      ],
+      "dwell_seconds": 1
+    },
+    {
+      "id": "P02",
+      "position_m": [
+        3,
+        15,
+        2
+      ],
+      "dwell_seconds": 1
+    },
+    {
+      "id": "P03",
+      "position_m": [
+        17,
+        8,
+        2
+      ],
+      "dwell_seconds": 1
+    },
+    {
+      "id": "P04",
+      "position_m": [
+        17,
+        15,
+        2
+      ],
+      "dwell_seconds": 1
+    }
+  ],
+  "environment": {
+    "map_min_m": [
+      0,
+      0,
+      0
+    ],
+    "map_max_m": [
+      20,
+      20,
+      8
+    ],
+    "obstacles": [
+      {
+        "type": "cuboid",
+        "center_m": [
+          10,
+          10,
+          3
+        ],
+        "size_m": [
+          4,
+          8,
+          6
+        ],
+        "label": "central_block"
+      }
+    ]
+  },
+  "planning": {
+    "grid_resolution_m": 1,
+    "distance_strategy": "hybrid",
+    "astar_threshold_m": 30,
+    "solver_time_limit_seconds": 2,
+    "require_all_drones_used": true
+  },
+  "safety": {
+    "uav_radius_m": 0.3,
+    "obstacle_margin_m": 0.2,
+    "minimum_separation_m": 2,
+    "collision_sample_step_m": 0.2,
+    "delay_step_seconds": 0.5,
+    "maximum_departure_delay_seconds": 30
+  },
+  "online": {
+    "planning_update_hz": 2,
+    "prediction_horizon_s": 5,
+    "sensor_range_m": 10,
+    "maximum_simulation_overtime_s": 60,
+    "obstacles": []
+  }
+}

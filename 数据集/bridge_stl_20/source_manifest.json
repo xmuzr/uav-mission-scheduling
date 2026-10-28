@@ -1,0 +1,71 @@
+{
+  "upstream": "https://github.com/CSUCRYE/bridge-inspection-ai",
+  "model_path": "assets/bridge.stl",
+  "license": "MIT",
+  "source_stl_sha256": "bebeb1103e03cf088d0bbbfc866e726b857128eaa0ff802447bf8a7e21f11fa0",
+  "transform_source_to_mission": [
+    [
+      0.0,
+      1.0,
+      0.0,
+      2.5
+    ],
+    [
+      -1.0,
+      0.0,
+      0.0,
+      12.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      12.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "unit_scale": 1,
+  "triangle_count": 204,
+  "closed_component_count": 17,
+  "transformed_bounds_m": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      95.0,
+      12.0,
+      12.0
+    ]
+  ],
+  "viewpoint_origin": "New deterministic synthetic test viewpoints for this project; not supplied by upstream.",
+  "coverage_claim": "20 accessible viewpoint visits with unobstructed target rays; not a full image coverage guarantee.",
+  "starts": {
+    "S1": [
+      -5,
+      -5,
+      1
+    ],
+    "S2": [
+      100,
+      -5,
+      1
+    ]
+  },
+  "safety_parameters": {
+    "uav_radius_m": 0.5,
+    "obstacle_margin_m": 0.25,
+    "minimum_separation_m": 3,
+    "collision_sample_step_m": 0.2,
+    "delay_step_seconds": 0.5,
+    "maximum_departure_delay_seconds": 600
+  },
+  "mission_frame_stl_sha256": "05dc14ed6fa28b11df7eac742749777a7d5ac81580f6e79eed5ce499230a2ce0",
+  "mission_frame_stl_max_float32_roundtrip_error_m": 4.76837158203125e-07
+}

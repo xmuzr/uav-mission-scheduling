@@ -1,0 +1,2361 @@
+{
+  "schema_version": "1.0",
+  "name": "parallel_bridge_20_tasks",
+  "coordinate_frame": "local_xyz_m",
+  "drone_count": 3,
+  "drones": [
+    {
+      "id": "UAV1",
+      "start_m": [
+        0,
+        0,
+        0
+      ],
+      "end_m": [
+        0,
+        0,
+        0
+      ],
+      "available_flight_seconds": 2400,
+      "reserve_seconds": 0,
+      "cruise_speed_mps": 4,
+      "inspection_speed_mps": 2
+    },
+    {
+      "id": "UAV2",
+      "start_m": [
+        0,
+        0,
+        0
+      ],
+      "end_m": [
+        0,
+        0,
+        0
+      ],
+      "available_flight_seconds": 2400,
+      "reserve_seconds": 0,
+      "cruise_speed_mps": 4,
+      "inspection_speed_mps": 2
+    },
+    {
+      "id": "UAV3",
+      "start_m": [
+        3000,
+        0,
+        0
+      ],
+      "end_m": [
+        3000,
+        0,
+        0
+      ],
+      "available_flight_seconds": 2400,
+      "reserve_seconds": 0,
+      "cruise_speed_mps": 4,
+      "inspection_speed_mps": 2
+    }
+  ],
+  "tasks": [
+    {
+      "id": "P01",
+      "position_m": [
+        1000.0,
+        400.0,
+        200.0
+      ],
+      "dwell_seconds": 2
+    },
+    {
+      "id": "P02",
+      "position_m": [
+        1500.0,
+        500.0,
+        130.0
+      ],
+      "dwell_seconds": 2
+    },
+    {
+      "id": "P03",
+      "position_m": [
+        2000.0,
+        600.0,
+        150.0
+      ],
+      "dwell_seconds": 2
+    },
+    {
+      "id": "P04",
+      "position_m": [
+        2500.0,
+        500.0,
+        160.0
+      ],
+      "dwell_seconds": 2
+    },
+    {
+      "id": "P05",
+      "position_m": [
+        1500.0,
+        900.0,
+        200.0
+      ],
+      "dwell_seconds": 2
+    },
+    {
+      "id": "P06",
+      "position_m": [
+        2000.0,
+        1000.0,
+        170.0
+      ],
+      "dwell_seconds": 2
+    },
+    {
+      "id": "P07",
+      "position_m": [
+        2500.0,
+        1100.0,
+        150.0
+      ],
+      "dwell_seconds": 2
+    },
+    {
+      "id": "P08",
+      "position_m": [
+        1000.0,
+        200.0,
+        450.0
+      ],
+      "dwell_seconds": 2
+    },
+    {
+      "id": "P09",
+      "position_m": [
+        1000.0,
+        1300.0,
+        450.0
+      ],
+      "dwell_seconds": 2
+    },
+    {
+      "id": "P10",
+      "position_m": [
+        2000.0,
+        500.0,
+        600.0
+      ],
+      "dwell_seconds": 2
+    },
+    {
+      "id": "P11",
+      "position_m": [
+        2000.0,
+        1050.0,
+        600.0
+      ],
+      "dwell_seconds": 2
+    },
+    {
+      "id": "P12",
+      "position_m": [
+        750.0,
+        500.0,
+        160.0
+      ],
+      "dwell_seconds": 2
+    },
+    {
+      "id": "P13",
+      "position_m": [
+        1000.0,
+        1000.0,
+        180.0
+      ],
+      "dwell_seconds": 2
+    },
+    {
+      "id": "P14",
+      "position_m": [
+        2250.0,
+        1000.0,
+        160.0
+      ],
+      "dwell_seconds": 2
+    },
+    {
+      "id": "P15",
+      "position_m": [
+        1500.0,
+        200.0,
+        450.0
+      ],
+      "dwell_seconds": 2
+    },
+    {
+      "id": "P16",
+      "position_m": [
+        2500.0,
+        200.0,
+        450.0
+      ],
+      "dwell_seconds": 2
+    },
+    {
+      "id": "P17",
+      "position_m": [
+        2500.0,
+        1300.0,
+        450.0
+      ],
+      "dwell_seconds": 2
+    },
+    {
+      "id": "P18",
+      "position_m": [
+        1000.0,
+        500.0,
+        600.0
+      ],
+      "dwell_seconds": 2
+    },
+    {
+      "id": "P19",
+      "position_m": [
+        1000.0,
+        1000.0,
+        600.0
+      ],
+      "dwell_seconds": 2
+    },
+    {
+      "id": "P20",
+      "position_m": [
+        2500.0,
+        1000.0,
+        600.0
+      ],
+      "dwell_seconds": 2
+    }
+  ],
+  "environment": {
+    "map_min_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "map_max_m": [
+      3000.0,
+      1400.0,
+      700.0
+    ],
+    "obstacles": [
+      {
+        "type": "cuboid",
+        "center_m": [
+          1500.0,
+          500.0,
+          420.0
+        ],
+        "label": "deck",
+        "size_m": [
+          2540.0,
+          400.0,
+          42.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1500.0,
+          310.0,
+          475.0
+        ],
+        "label": "guardrail",
+        "size_m": [
+          2540.0,
+          15.0,
+          70.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1500.0,
+          690.0,
+          475.0
+        ],
+        "label": "guardrail",
+        "size_m": [
+          2540.0,
+          15.0,
+          70.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          330.0,
+          500.0,
+          385.0
+        ],
+        "label": "crossbeam",
+        "size_m": [
+          45.0,
+          440.0,
+          30.0
+        ]
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          330.0,
+          350.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          330.0,
+          450.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          330.0,
+          550.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          330.0,
+          650.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          330.0,
+          500.0,
+          20.0
+        ],
+        "label": "foundation",
+        "size_m": [
+          70.0,
+          380.0,
+          40.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          330.0,
+          310.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          330.0,
+          690.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          590.0,
+          500.0,
+          385.0
+        ],
+        "label": "crossbeam",
+        "size_m": [
+          45.0,
+          440.0,
+          30.0
+        ]
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          590.0,
+          350.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          590.0,
+          450.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          590.0,
+          550.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          590.0,
+          650.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          590.0,
+          500.0,
+          20.0
+        ],
+        "label": "foundation",
+        "size_m": [
+          70.0,
+          380.0,
+          40.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          590.0,
+          310.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          590.0,
+          690.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          850.0,
+          500.0,
+          385.0
+        ],
+        "label": "crossbeam",
+        "size_m": [
+          45.0,
+          440.0,
+          30.0
+        ]
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          850.0,
+          350.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          850.0,
+          450.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          850.0,
+          550.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          850.0,
+          650.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          850.0,
+          500.0,
+          20.0
+        ],
+        "label": "foundation",
+        "size_m": [
+          70.0,
+          380.0,
+          40.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          850.0,
+          310.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          850.0,
+          690.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1110.0,
+          500.0,
+          385.0
+        ],
+        "label": "crossbeam",
+        "size_m": [
+          45.0,
+          440.0,
+          30.0
+        ]
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1110.0,
+          350.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1110.0,
+          450.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1110.0,
+          550.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1110.0,
+          650.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1110.0,
+          500.0,
+          20.0
+        ],
+        "label": "foundation",
+        "size_m": [
+          70.0,
+          380.0,
+          40.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1110.0,
+          310.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1110.0,
+          690.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1370.0,
+          500.0,
+          385.0
+        ],
+        "label": "crossbeam",
+        "size_m": [
+          45.0,
+          440.0,
+          30.0
+        ]
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1370.0,
+          350.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1370.0,
+          450.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1370.0,
+          550.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1370.0,
+          650.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1370.0,
+          500.0,
+          20.0
+        ],
+        "label": "foundation",
+        "size_m": [
+          70.0,
+          380.0,
+          40.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1370.0,
+          310.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1370.0,
+          690.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1630.0,
+          500.0,
+          385.0
+        ],
+        "label": "crossbeam",
+        "size_m": [
+          45.0,
+          440.0,
+          30.0
+        ]
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1630.0,
+          350.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1630.0,
+          450.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1630.0,
+          550.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1630.0,
+          650.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1630.0,
+          500.0,
+          20.0
+        ],
+        "label": "foundation",
+        "size_m": [
+          70.0,
+          380.0,
+          40.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1630.0,
+          310.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1630.0,
+          690.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1890.0,
+          500.0,
+          385.0
+        ],
+        "label": "crossbeam",
+        "size_m": [
+          45.0,
+          440.0,
+          30.0
+        ]
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1890.0,
+          350.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1890.0,
+          450.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1890.0,
+          550.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1890.0,
+          650.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1890.0,
+          500.0,
+          20.0
+        ],
+        "label": "foundation",
+        "size_m": [
+          70.0,
+          380.0,
+          40.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1890.0,
+          310.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1890.0,
+          690.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          2150.0,
+          500.0,
+          385.0
+        ],
+        "label": "crossbeam",
+        "size_m": [
+          45.0,
+          440.0,
+          30.0
+        ]
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          2150.0,
+          350.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          2150.0,
+          450.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          2150.0,
+          550.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          2150.0,
+          650.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          2150.0,
+          500.0,
+          20.0
+        ],
+        "label": "foundation",
+        "size_m": [
+          70.0,
+          380.0,
+          40.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          2150.0,
+          310.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          2150.0,
+          690.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          2410.0,
+          500.0,
+          385.0
+        ],
+        "label": "crossbeam",
+        "size_m": [
+          45.0,
+          440.0,
+          30.0
+        ]
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          2410.0,
+          350.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          2410.0,
+          450.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          2410.0,
+          550.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          2410.0,
+          650.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          2410.0,
+          500.0,
+          20.0
+        ],
+        "label": "foundation",
+        "size_m": [
+          70.0,
+          380.0,
+          40.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          2410.0,
+          310.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          2410.0,
+          690.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          2670.0,
+          500.0,
+          385.0
+        ],
+        "label": "crossbeam",
+        "size_m": [
+          45.0,
+          440.0,
+          30.0
+        ]
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          2670.0,
+          350.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          2670.0,
+          450.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          2670.0,
+          550.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          2670.0,
+          650.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          2670.0,
+          500.0,
+          20.0
+        ],
+        "label": "foundation",
+        "size_m": [
+          70.0,
+          380.0,
+          40.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          2670.0,
+          310.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          2670.0,
+          690.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1500.0,
+          1000.0,
+          420.0
+        ],
+        "label": "deck",
+        "size_m": [
+          2540.0,
+          400.0,
+          42.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1500.0,
+          810.0,
+          475.0
+        ],
+        "label": "guardrail",
+        "size_m": [
+          2540.0,
+          15.0,
+          70.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1500.0,
+          1190.0,
+          475.0
+        ],
+        "label": "guardrail",
+        "size_m": [
+          2540.0,
+          15.0,
+          70.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          330.0,
+          1000.0,
+          385.0
+        ],
+        "label": "crossbeam",
+        "size_m": [
+          45.0,
+          440.0,
+          30.0
+        ]
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          330.0,
+          850.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          330.0,
+          950.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          330.0,
+          1050.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          330.0,
+          1150.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          330.0,
+          1000.0,
+          20.0
+        ],
+        "label": "foundation",
+        "size_m": [
+          70.0,
+          380.0,
+          40.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          330.0,
+          810.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          330.0,
+          1190.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          590.0,
+          1000.0,
+          385.0
+        ],
+        "label": "crossbeam",
+        "size_m": [
+          45.0,
+          440.0,
+          30.0
+        ]
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          590.0,
+          850.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          590.0,
+          950.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          590.0,
+          1050.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          590.0,
+          1150.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          590.0,
+          1000.0,
+          20.0
+        ],
+        "label": "foundation",
+        "size_m": [
+          70.0,
+          380.0,
+          40.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          590.0,
+          810.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          590.0,
+          1190.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          850.0,
+          1000.0,
+          385.0
+        ],
+        "label": "crossbeam",
+        "size_m": [
+          45.0,
+          440.0,
+          30.0
+        ]
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          850.0,
+          850.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          850.0,
+          950.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          850.0,
+          1050.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          850.0,
+          1150.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          850.0,
+          1000.0,
+          20.0
+        ],
+        "label": "foundation",
+        "size_m": [
+          70.0,
+          380.0,
+          40.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          850.0,
+          810.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          850.0,
+          1190.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1110.0,
+          1000.0,
+          385.0
+        ],
+        "label": "crossbeam",
+        "size_m": [
+          45.0,
+          440.0,
+          30.0
+        ]
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1110.0,
+          850.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1110.0,
+          950.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1110.0,
+          1050.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1110.0,
+          1150.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1110.0,
+          1000.0,
+          20.0
+        ],
+        "label": "foundation",
+        "size_m": [
+          70.0,
+          380.0,
+          40.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1110.0,
+          810.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1110.0,
+          1190.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1370.0,
+          1000.0,
+          385.0
+        ],
+        "label": "crossbeam",
+        "size_m": [
+          45.0,
+          440.0,
+          30.0
+        ]
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1370.0,
+          850.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1370.0,
+          950.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1370.0,
+          1050.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1370.0,
+          1150.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1370.0,
+          1000.0,
+          20.0
+        ],
+        "label": "foundation",
+        "size_m": [
+          70.0,
+          380.0,
+          40.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1370.0,
+          810.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1370.0,
+          1190.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1630.0,
+          1000.0,
+          385.0
+        ],
+        "label": "crossbeam",
+        "size_m": [
+          45.0,
+          440.0,
+          30.0
+        ]
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1630.0,
+          850.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1630.0,
+          950.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1630.0,
+          1050.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1630.0,
+          1150.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1630.0,
+          1000.0,
+          20.0
+        ],
+        "label": "foundation",
+        "size_m": [
+          70.0,
+          380.0,
+          40.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1630.0,
+          810.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1630.0,
+          1190.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1890.0,
+          1000.0,
+          385.0
+        ],
+        "label": "crossbeam",
+        "size_m": [
+          45.0,
+          440.0,
+          30.0
+        ]
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1890.0,
+          850.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1890.0,
+          950.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1890.0,
+          1050.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          1890.0,
+          1150.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1890.0,
+          1000.0,
+          20.0
+        ],
+        "label": "foundation",
+        "size_m": [
+          70.0,
+          380.0,
+          40.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1890.0,
+          810.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          1890.0,
+          1190.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          2150.0,
+          1000.0,
+          385.0
+        ],
+        "label": "crossbeam",
+        "size_m": [
+          45.0,
+          440.0,
+          30.0
+        ]
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          2150.0,
+          850.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          2150.0,
+          950.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          2150.0,
+          1050.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          2150.0,
+          1150.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          2150.0,
+          1000.0,
+          20.0
+        ],
+        "label": "foundation",
+        "size_m": [
+          70.0,
+          380.0,
+          40.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          2150.0,
+          810.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          2150.0,
+          1190.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          2410.0,
+          1000.0,
+          385.0
+        ],
+        "label": "crossbeam",
+        "size_m": [
+          45.0,
+          440.0,
+          30.0
+        ]
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          2410.0,
+          850.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          2410.0,
+          950.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          2410.0,
+          1050.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          2410.0,
+          1150.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          2410.0,
+          1000.0,
+          20.0
+        ],
+        "label": "foundation",
+        "size_m": [
+          70.0,
+          380.0,
+          40.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          2410.0,
+          810.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          2410.0,
+          1190.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          2670.0,
+          1000.0,
+          385.0
+        ],
+        "label": "crossbeam",
+        "size_m": [
+          45.0,
+          440.0,
+          30.0
+        ]
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          2670.0,
+          850.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          2670.0,
+          950.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          2670.0,
+          1050.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cylinder_z",
+        "center_m": [
+          2670.0,
+          1150.0,
+          190.0
+        ],
+        "label": "pier",
+        "radius_m": 26.0,
+        "height_m": 380.0
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          2670.0,
+          1000.0,
+          20.0
+        ],
+        "label": "foundation",
+        "size_m": [
+          70.0,
+          380.0,
+          40.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          2670.0,
+          810.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      },
+      {
+        "type": "cuboid",
+        "center_m": [
+          2670.0,
+          1190.0,
+          460.0
+        ],
+        "label": "guardrail_post",
+        "size_m": [
+          18.0,
+          18.0,
+          100.0
+        ]
+      }
+    ]
+  },
+  "planning": {
+    "distance_strategy": "hybrid",
+    "astar_threshold_m": 600,
+    "grid_resolution_m": 10,
+    "solver_time_limit_seconds": 30,
+    "seed": 20260910,
+    "require_all_drones_used": true
+  },
+  "safety": {
+    "uav_radius_m": 0.5,
+    "obstacle_margin_m": 0,
+    "minimum_separation_m": 20,
+    "collision_sample_step_m": 5,
+    "delay_step_seconds": 1,
+    "maximum_departure_delay_seconds": 600
+  },
+  "online": {
+    "planning_update_hz": 2,
+    "prediction_horizon_s": 10,
+    "sensor_range_m": 100,
+    "obstacles": []
+  }
+}
